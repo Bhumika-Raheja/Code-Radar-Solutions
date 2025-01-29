@@ -5,6 +5,8 @@ int main() {
     if (a>0){
         if (b>0){
             printf("True");
+        }else{
+            printf("False");
         }
     }
     else{
