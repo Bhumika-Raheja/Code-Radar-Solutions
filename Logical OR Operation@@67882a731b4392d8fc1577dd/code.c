@@ -7,6 +7,5 @@ int main() {
     }else{
         printf("False");
     }
-    printf("%s", welcome());
     return 0;
 }
