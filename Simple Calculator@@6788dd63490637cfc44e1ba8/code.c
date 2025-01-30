@@ -4,8 +4,11 @@ int main() {
     char op;
     scanf("%d %d %c",&a,&b,&op);
     if (op=='+'){
-        c=a+b
-        printf("%d",c)
+        c=a+b;
+        printf("%d",c);
+    }
+    else{
+        printf("error");
     }
     return 0;
 }
