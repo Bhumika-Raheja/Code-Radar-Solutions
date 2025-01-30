@@ -8,6 +8,9 @@ int main() {
     else if(alpha=='a' || alpha=='e' || alpha=='i' || alpha =='o' || alpha=='u'){
         printf("Vowel");
     }
+    else if(alpha>='b' && alpha<='z'){
+        printf("Consonant");
+    }
     else{
         printf("Special Character");
     }
