@@ -7,7 +7,7 @@ int main() {
         c=a+b;
         printf("%d",c);
     }
-    if (op=='*'){
+    else if (op=='*'){
         c=a*b;
         printf("%d",c);
     }
