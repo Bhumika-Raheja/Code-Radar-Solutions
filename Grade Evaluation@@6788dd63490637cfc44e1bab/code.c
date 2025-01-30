@@ -5,6 +5,12 @@ int main() {
     if (gr=='A'){
         printf("Excellent");
     }
+    else if (gr=='B'){
+        printf("Good");
+    }
+    else if (gr=='C'){
+        printf("Average");
+    }
     else {
         printf("Invalid grade");
     }
