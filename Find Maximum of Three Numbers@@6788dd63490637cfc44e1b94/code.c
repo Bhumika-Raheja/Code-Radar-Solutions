@@ -10,6 +10,5 @@ int main() {
     }else{
         print("%d",c);
     }
-    printf("%s", welcome());
     return 0;
 }
