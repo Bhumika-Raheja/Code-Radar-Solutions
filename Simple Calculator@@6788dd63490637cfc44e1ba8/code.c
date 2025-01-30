@@ -9,7 +9,7 @@ int main() {
     }
     if (op=='-'){
         c=a-b;
-        printf("%d",&c);
+        printf("%d",c);
     }
     else{
         printf("error");
