@@ -5,7 +5,7 @@ int main() {
     if (a%2==0){
         printf("Not Set");
     }else{
-        printf("Set")
+        printf("Set");
     }
     return 0;
 }
