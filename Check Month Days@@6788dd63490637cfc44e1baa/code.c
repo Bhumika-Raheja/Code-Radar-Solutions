@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    else if(a==2){
+    if(a==2){
         printf("28");
     }
     else {
