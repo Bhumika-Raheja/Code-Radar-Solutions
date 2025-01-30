@@ -6,7 +6,7 @@ int main() {
         printf("Excellent");
     }
     else {
-        printf("Invalid grade")
+        printf("Invalid grade");
     }
     return 0;
 }
