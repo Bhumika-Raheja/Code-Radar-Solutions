@@ -11,8 +11,13 @@ int main(){
                 printf("*");
             }
         }
-        for (int k=1;k<i;k++){
-            printf("*");
+        for (int k=(i-1);k<=1;k--){
+            if (k>=i){
+                printf("*");
+            }
+            else{
+                printf("\n");
+            }
         }
         printf("\n");
     }
