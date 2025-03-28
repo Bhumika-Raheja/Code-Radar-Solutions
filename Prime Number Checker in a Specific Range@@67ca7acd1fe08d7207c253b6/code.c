@@ -7,12 +7,14 @@ int printPrimesInRange(int a,int b){
                     count+=1;
                 }
             }
-            if (count==0){
-                return num;
-            }
-            else{
-                printf("No prime numbers");
-            }
         }
     }
+    if (count==0){
+        return num;
+    }
+    else{
+        printf("No prime numbers");
+    }
+        
+    
 }
