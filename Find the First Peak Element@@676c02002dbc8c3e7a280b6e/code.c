@@ -9,5 +9,6 @@ int main(){
             max=a;
         }
     }
+    printf("%d", max);
     return 0;
 }
