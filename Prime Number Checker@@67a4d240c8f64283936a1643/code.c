@@ -1,4 +1,4 @@
-int isPrime(int num){
+void isPrime(int num){
     int count=0;
     for (int i=2;i<num;i++){
         if (num%i==0){
@@ -11,5 +11,4 @@ int isPrime(int num){
     else{
         printf("0");
     }
-    return 0;
 }
