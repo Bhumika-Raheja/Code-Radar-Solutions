@@ -4,11 +4,12 @@ int isPrime(int num){
         if (num%i==0){
             count+=1;
         }
+    }
     if (count==0){
         printf("1");
     }
     else{
         printf("0");
     }
-    }
+    
 }
