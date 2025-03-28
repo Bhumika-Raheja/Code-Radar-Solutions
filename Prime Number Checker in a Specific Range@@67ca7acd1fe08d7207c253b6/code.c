@@ -13,6 +13,6 @@ int printPrimesInRange(int a,int b){
             else{
                 printf("No prime numbers");
             }
-
+        }
     }
 }
