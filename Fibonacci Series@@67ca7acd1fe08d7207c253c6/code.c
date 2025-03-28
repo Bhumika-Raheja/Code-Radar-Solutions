@@ -1,3 +1,3 @@
-int fibonocciSeries(int a){
+int fibonacciSeries(int a){
     return 0;
 }
