@@ -10,9 +10,6 @@ int printPrimesInRange(int a,int b){
             if (count==0){
                 return num;
             }
-            else{
-                printf("No prime numbers");
-            }
         }
     }
 }
