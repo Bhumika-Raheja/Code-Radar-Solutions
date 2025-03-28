@@ -2,22 +2,12 @@
 int main(){
     int a;
     scanf("%d",&a);
-    for (int i=a;i>=1;i--){
-        for (int j=1;j<=a;j++){
-            if (j<i){
-                printf(" ");
-            }
-            if (j>=i){
-                printf("%d",j);
-            }
+    for (int i=1;i<=a;i++){
+        for (int j=1;j<=(a-i);j++){
+            printf(" ");
         }
-        for (int k=(a-1);k>=1;k--){
-            if (k>=i){
-                printf("%d",k);
-            }
-            else{
-                printf("");
-            }
+        for (int k=1;k<=i;k++){
+            printf("%d ",k);
         }
         printf("\n");
     }
