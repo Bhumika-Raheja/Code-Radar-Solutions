@@ -1,4 +1,4 @@
-int isPrime(int a,int b){
+int printPrimeInRange(int a,int b){
     for (int num=a;num<=b;num++){
         if (num>1){
             int count=0;
