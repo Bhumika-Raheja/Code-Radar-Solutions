@@ -20,7 +20,7 @@ int main(){
         for (int k=1;k<=ns;k++){
             printf("*");
         }
-        ns=ns-2
+        ns=ns-2;
         printf("\n");
     }
 }
