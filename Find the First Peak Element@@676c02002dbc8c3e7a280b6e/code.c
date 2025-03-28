@@ -5,8 +5,8 @@ int main(){
     for (int i=0;i<a;i++){
         scanf("%d",&a);
         arr[i]=a;
-        if (a>count){
-            count=a;
+        if (a>max){
+            max=a;
         }
     }
     return 0;
