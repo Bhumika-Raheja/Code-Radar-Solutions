@@ -1,5 +1,5 @@
 int isPrime(int num){
-    if (mum>1){
+    if (num>1){
         int count=0;
         for (int i=2;i<num;i++){
             if (num%i==0){
@@ -13,7 +13,7 @@ int isPrime(int num){
             return 0;
         }
     }
-    else if(num=1){
+    else(num=1){
         return 0;
     }
 }
