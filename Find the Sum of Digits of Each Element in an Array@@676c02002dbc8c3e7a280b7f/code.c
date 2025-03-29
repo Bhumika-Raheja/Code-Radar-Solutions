@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int sum(int a){
     int digit=0 , add , left;
-    a=abs(a)
+    a=abs(a);
     add=a%10;
     digit+=add;
     left=a/10;
