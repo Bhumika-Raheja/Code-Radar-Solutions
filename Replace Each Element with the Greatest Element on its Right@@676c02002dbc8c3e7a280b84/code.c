@@ -14,7 +14,7 @@ int main(){
                 arr[i]=arr[j];
             }
         }
-        printf("%d ",arr[i]);
+        printf("%d ",max);
     }
     arr[a-1]=-1;
     for (int i=0;i<a;i++){
