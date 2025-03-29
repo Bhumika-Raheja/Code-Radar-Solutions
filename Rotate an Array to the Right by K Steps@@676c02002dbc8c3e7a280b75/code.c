@@ -18,7 +18,7 @@ int main() {
         }
     }
     else{
-        k=k-a;
+        k=k%a;
         for (int i=a-k;i<a;i++){
             printf("%d ",arr[i]);
         }
