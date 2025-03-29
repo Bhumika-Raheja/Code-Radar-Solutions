@@ -27,7 +27,7 @@ int main() {
     }
     for (int i=0;i<a;i++){
         if (palindrome(arr[i])){
-            print("%d",arr[i])
+            printf("%d",arr[i]);
         }
     }
     return 0;
