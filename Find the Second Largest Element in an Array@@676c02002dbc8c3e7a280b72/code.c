@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <limits.h>
 int main() {
     int a;
     scanf ("%d",&a);
-    int arr[a],max=arr[0],indexx=0;
+    int arr[a],max=arr[0],smax=arr[i];
     for (int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
@@ -14,7 +13,7 @@ int main() {
         }
     }
     max=arr[0];
-    arr[indexx]=INT_MIN;
+    arr[indexx]=INT_MIN ;
     for (int i=0;i<a;i++){
         if (arr[i]>=max){
             max=arr[i];
