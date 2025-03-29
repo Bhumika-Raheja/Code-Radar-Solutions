@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 int main() {
-    int a,min=INT_MAXm=0,n=0;
+    int a,min=INT_MAX,m=0,n=0;
     scanf ("%d",&a);
     int arr[a];
     for (int i=0;i<a;i++){
