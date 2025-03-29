@@ -10,8 +10,8 @@ int main() {
         for (int i=0;i<a-1;i++){
             if (arr[i]>arr[i+1]){
                 int c=arr[i];
-                arr[i]=arr[j];
-                arr[j]=c;
+                arr[i]=arr[i+1];
+                arr[i+1]=c;
             }
         }
     }
