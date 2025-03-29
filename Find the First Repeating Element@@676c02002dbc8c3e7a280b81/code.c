@@ -13,7 +13,7 @@ int main() {
                 if (arr[i]==arr[j]){
                     printf("%d",arr[j]);
                     count+=1;
-                    print+=1
+                    print+=1;
                 }
             }
         }
