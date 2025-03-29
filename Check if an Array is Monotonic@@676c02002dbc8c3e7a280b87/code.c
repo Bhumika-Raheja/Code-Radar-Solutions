@@ -15,7 +15,7 @@ int main() {
         yes+=1;
         printf("YES");
     }
-    count=0
+    count=0;
     for (int j=0;j<a-1;j++){
         if (arr[j]<arr[j+1]){
             count++;
