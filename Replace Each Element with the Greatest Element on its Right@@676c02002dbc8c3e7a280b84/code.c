@@ -7,12 +7,11 @@ int main(){
     for (int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    for (int i=0;i<=a-2;i++){
+    for (int i=0;i<a-1;i++){
         int max=INT_MIN;
         for (int j=i+1;j<a;j++){
             if (arr[j]>=max){
                 max=arr[j];
-                arr[i]=max;
             }
         }
         printf("%d ",max);
