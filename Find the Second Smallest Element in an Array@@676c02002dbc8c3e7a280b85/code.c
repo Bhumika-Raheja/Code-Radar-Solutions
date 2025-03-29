@@ -25,7 +25,7 @@ int main() {
             printf("-1");
         }
         else{
-        printf("%d",smax);
+        printf("%d",smin);
         }
     }
     return 0;
