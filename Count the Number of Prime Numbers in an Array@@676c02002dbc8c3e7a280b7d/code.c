@@ -8,8 +8,8 @@ int main() {
     }
     int prime=0;
     for (int j=0;j<a;j++){
-        int count=0
-        for (int i=2;i<j,i++){
+        int count=0;
+        for (int i=2;i<j;i++){
             if (arr[j]%i!=0){
                 count+=1;
                 break;
@@ -19,6 +19,6 @@ int main() {
             prime+=1;
         }
     }
-    printf("%d",prime)
+    printf("%d",prime);
     return 0;
 }
