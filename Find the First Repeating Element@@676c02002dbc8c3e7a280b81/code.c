@@ -10,7 +10,7 @@ int main() {
     for (int j=0;j<a;j++){
         for (int i=j+1;i<a;i++){
             if (count==0){
-                if (arr[i]=arr[j]){
+                if (arr[i]==arr[j]){
                     printf("%d",arr[j]);
                     count+=1;
                 }
