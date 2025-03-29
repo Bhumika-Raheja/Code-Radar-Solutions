@@ -7,7 +7,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     for (int i=0;i<a;i++){
-        for (int j=0,j<a-1;j++){
+        for (int j=0;j<a-1;j++){
             if (arr[j]>arr[j+1]){
                 int a=arr[j];
                 arr[j]=arr[j+1];
