@@ -1,10 +1,10 @@
 #include <stdio.h>
 int palindrome(int a){
     if (a<0){
-        return 1;
+        return 0;
     }
     else{
-        int remainder,reversed=0,left;
+        int remainder,reversed=0,left=a;
         while (left>0){
             remainder = a%10;
             reversed = reversed*10+remainder;
