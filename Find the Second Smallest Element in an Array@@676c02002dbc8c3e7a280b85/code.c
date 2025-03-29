@@ -16,7 +16,7 @@ int main() {
                 smin=min;
                 min=arr[i];
             }
-            else if (arr[i] < smax && arr[i] > max) {
+            else if (arr[i] < smin && arr[i] > min) {
                 smin = arr[i];
             }
             
