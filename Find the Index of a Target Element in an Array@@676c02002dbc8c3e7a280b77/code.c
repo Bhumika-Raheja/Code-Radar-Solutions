@@ -13,8 +13,8 @@ int main() {
     for (int i=0;i<a;i++){
         if (arr[i]==k){
             printf("%d",i);
-            break;
             count+=1;
+            break;
         }
     }
     if (count==0){
