@@ -5,7 +5,7 @@ int sum(int a){
     digit+=add;
     left=a/10;
     if (left>0){
-        sum(left);
+        return add + sum(left);
     }
     else{
         return add;
