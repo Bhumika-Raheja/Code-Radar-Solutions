@@ -6,7 +6,7 @@ int palindrome(int a){
     else{
         int remainder,reversed=0,left=a;
         while (left>0){
-            remainder = a%10;
+            remainder = left%10;
             reversed = reversed*10+remainder;
             left = a/10;
         }
