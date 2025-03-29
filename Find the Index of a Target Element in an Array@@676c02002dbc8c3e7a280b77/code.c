@@ -10,10 +10,10 @@ int main() {
     int k;
     scanf ("%d",&k);
     for (int i=0;i<a;i++){
-        if (arr[i]==k)[
+        if (arr[i]==k){
             printf("%d",i);
             break;
-        ]
+        }
     }
 
     return 0;
