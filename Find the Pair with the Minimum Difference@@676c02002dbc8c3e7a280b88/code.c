@@ -23,11 +23,11 @@ int main() {
             }
         }
     }
-    if (arr[m]>arr[n]{
+    if (arr[m]>arr[n]){
         int c=arr[m];
         arr[m]=arr[n];
         arr[n]=c;
-    })
+    }
     printf("%d %d",arr[m],arr[n]);
     return 0;
 }
