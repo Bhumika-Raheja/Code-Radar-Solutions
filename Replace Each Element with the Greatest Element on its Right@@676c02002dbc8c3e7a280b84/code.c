@@ -14,11 +14,11 @@ int main(){
                 max=arr[j];
             }
         }
-        printf("%d ",max);
+        arr[i]=max;
     }
     arr[a-1]=-1;
     for (int i=0;i<a;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
     return 0;
 }
