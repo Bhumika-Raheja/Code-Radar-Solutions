@@ -11,6 +11,10 @@ int main() {
             smax=max;
             max=arr[i];
         }
+        else if (smax<arr[i]){
+            smax=arr[i];
+        }
+ 
     }
     printf("%d",smax);
     return 0;
