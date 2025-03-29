@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 int main() {
-    int a,min=INT_MAX;
+    int a,min=INT_MAXm=0,n=0;
     scanf ("%d",&a);
     int arr[a];
     for (int i=0;i<a;i++){
@@ -18,9 +18,11 @@ int main() {
             }
             if (a<min){
                 min=a;
+                m=i;
+                n=j;
             }
         }
     }
-    printf("%d",min);
+    printf("%d %d",m,n);
     return 0;
 }
