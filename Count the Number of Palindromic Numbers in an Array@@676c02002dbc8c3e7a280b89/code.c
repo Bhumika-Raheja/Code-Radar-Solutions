@@ -8,7 +8,7 @@ int palindrome(int a){
         while (left>0){
             remainder = left%10;
             reversed = reversed*10+remainder;
-            left = a/10;
+            left = left/10;
         }
         if (a==reversed){
             return 1;
