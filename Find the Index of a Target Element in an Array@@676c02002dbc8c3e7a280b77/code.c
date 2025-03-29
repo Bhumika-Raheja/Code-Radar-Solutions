@@ -14,11 +14,11 @@ int main() {
         if (arr[i]==k){
             printf("%d",i);
             break;
-            count+=1
+            count+=1;
         }
     }
     if (count==0){
-        printf("-1")
+        printf("-1");
     }
 
     return 0;
