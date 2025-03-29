@@ -16,6 +16,9 @@ int main() {
                 }
             }
         }
+        for (int j=0;j<a;j++){
+            printf("%d",arr[j]);
+        }
         printf("%d",arr[a-2]);
     }
     else{
