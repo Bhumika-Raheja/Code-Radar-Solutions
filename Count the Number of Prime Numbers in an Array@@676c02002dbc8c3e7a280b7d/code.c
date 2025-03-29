@@ -9,7 +9,7 @@ int main() {
     int prime=0;
     for (int j=0;j<a;j++){
         int count=0;
-        for (int i=2;i<j;i++){
+        for (int i=2;i<arr[j];i++){
             if (arr[j]%i==0){
                 count+=1;
                 break;
