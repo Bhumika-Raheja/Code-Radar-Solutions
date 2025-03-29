@@ -21,7 +21,7 @@ int main() {
             }
             
         }
-        if (smin == INT_MIN) {
+        if (smin == INT_MAX) {
             printf("-1");
         }
         else{
