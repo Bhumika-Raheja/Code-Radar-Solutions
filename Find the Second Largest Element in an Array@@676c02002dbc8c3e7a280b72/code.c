@@ -13,6 +13,6 @@ int main() {
             max=arr[i];
         }
     }
-
+    printf("%d",smax)
     return 0;
 }
