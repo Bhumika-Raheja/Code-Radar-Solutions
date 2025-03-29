@@ -19,7 +19,7 @@ int palindrome(int a){
     }
 }
 int main() {
-    int a;
+    int a,count=0;
     scanf ("%d",&a);
     int arr[a];
     for (int i=0;i<a;i++){
@@ -27,8 +27,9 @@ int main() {
     }
     for (int i=0;i<a;i++){
         if (palindrome(arr[i])){
-            printf("%d",arr[i]);
+            count++;
         }
     }
+    printf("%d",count);
     return 0;
 }
