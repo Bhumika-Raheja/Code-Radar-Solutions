@@ -16,7 +16,7 @@ int main() {
                 }
             }
         }
-        printf("%d",arr[a-1]);
+        printf("%d",arr[a-2]);
     }
     else{
         printf("-1");
