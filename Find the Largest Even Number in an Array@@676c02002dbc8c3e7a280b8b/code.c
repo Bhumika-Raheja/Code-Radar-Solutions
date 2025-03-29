@@ -21,11 +21,11 @@ int main() {
             }
         }
     }
-    for (int j=a-1;j>=0;j--)[
+    for (int j=a-1;j>=0;j--){
         if (arr[j]%2==0){
             printf("%d",arr[j]);
             break ;
         }
-    ]
+    }
     return 0;
 }
