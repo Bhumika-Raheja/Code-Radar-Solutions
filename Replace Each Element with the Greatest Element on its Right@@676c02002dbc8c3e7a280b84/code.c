@@ -11,6 +11,7 @@ int main(){
         int max=INT_MIN;
         for (int j=i+1;j<a;j++){
             if (arr[j]>=max){
+                max=arr[j];
                 arr[i]=arr[j];
             }
         }
