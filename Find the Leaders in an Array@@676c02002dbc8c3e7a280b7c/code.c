@@ -16,7 +16,7 @@ int main() {
             }
         }
         if(count==0){
-            printf("%d \n",arr[i]);
+            printf("%d ",arr[i]);
         }
     }
     printf("%d",arr[a-1]);
