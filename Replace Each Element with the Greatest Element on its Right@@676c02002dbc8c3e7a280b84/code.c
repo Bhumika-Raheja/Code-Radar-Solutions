@@ -3,6 +3,7 @@
 int main(){
     int a;
     scanf("%d",&a);
+    int 
     for (int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
@@ -15,7 +16,7 @@ int main(){
         }
         printf("%d ",arr[i]);
     }
-    arr[a-1]=-1
+    arr[a-1]=-1;
     for (int i=0;i<a;i++){
         printf("%d",arr[i]);
     }
