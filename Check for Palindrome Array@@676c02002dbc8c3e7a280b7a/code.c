@@ -16,7 +16,6 @@ int main() {
             if(i==j){
                 if (arr[i]!=array[j]){
                     count+=1;
-                    break;
                 }
             }
         }
