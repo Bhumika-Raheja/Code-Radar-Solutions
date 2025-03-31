@@ -8,7 +8,7 @@ int binarySearch(int arr[],int n,int target){
         }
     }
     if (count==1){
-        return result=arr[indexx];
+        return result=indexx;
     }
     else{
         return result=-1 ;
