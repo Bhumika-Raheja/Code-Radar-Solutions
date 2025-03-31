@@ -6,8 +6,8 @@ int main() {
     for (int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
+    int count=0;
     for (int i=0;i<a;i++){
-        int count=0;
         count+=arr[i];
         printf("%d ",count);
     }
