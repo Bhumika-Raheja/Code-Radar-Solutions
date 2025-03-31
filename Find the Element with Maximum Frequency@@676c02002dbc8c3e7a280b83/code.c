@@ -8,7 +8,7 @@ int main() {
         visited[i]=0;
     }
     for (int i=0;i<a;i++){
-        count=1;
+        int count=1;
         if (visited[i]!=0){
             for (int j=i+1;j<a;j++){
                 if (arr[i]==arr[j]){
@@ -19,9 +19,9 @@ int main() {
         }
         if (count>max){
             max=count;
-            index=i;
+            index=arr[i];
         }
     }
     printf("%d",index);
     return 0;
-}.
+}
