@@ -8,10 +8,10 @@ int bubbleSort(int arr[],int n){
             }
         }
     }
-    return arr[];
+    return arr[n];
 }
 int printArray(int arr[],int n){
     for (int i=0;i<n;i++){
-        print("%d "arr[i]);
+        prinft("%d ".arr[i]);
     }
 }
