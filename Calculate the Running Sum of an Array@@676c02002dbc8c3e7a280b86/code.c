@@ -6,17 +6,10 @@ int main() {
     for (int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    for (int i=0;i<a-1;i++){
+    for (int i=0;i<a;i++){
         int count=0;
-        for (int j=i;j<a;j++){
-            count+=arr[j];
-        }
+        count+=arr[i];
         printf("%d ",count);
     }
-    int sum=0;
-    for (int i=0;i<a-1;i++){
-        sum+=arr[i];
-    }
-    printf("%d ",sum);
     return 0;
 }
