@@ -13,6 +13,11 @@ int main(){
             break;
         }
     }
+    for (i=a-1){
+        if (arr[a-2]!=arr[a-1][
+            printf("%d",arr[a-1]);
+        ])
+    }
     if (max==0){
         printf("-1");
     }
