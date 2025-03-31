@@ -8,7 +8,7 @@ int main() {
         visited[i]=0;
     }
     if (a%2==0){
-        k=a/2;
+        k=(a/2)+1;
     }
     else{
         k=(a+1)/2;
