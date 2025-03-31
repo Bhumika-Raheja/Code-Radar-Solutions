@@ -8,17 +8,17 @@ int main(){
         visited[i]=0;
     }
     for (int i=0;i<a;i++){
-        if (visited[i]==1){
-            continue;
+        if (visited[i]!=1){
+            int count=1;
+            for (int j=i+1;j<a;j++){
+                    if (arr[i]==arr[j]){
+                        count++;
+                        visited[j]=1;
+                    }
+            }
+            printf("%d %d\n",arr[i],count);
         }
-        int count=1;
-        for (int j=i+1;j<a;j++){
-                if (arr[i]=arr[j]){
-                    count++;
-                    visited[j]=1;
-                }
-        }
-        printf("%d %d\n",arr[i],count);
+        
     }
     return 0;
 }
