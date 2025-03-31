@@ -5,7 +5,6 @@ int insertionSort(int arr[],int n){
                 int c=arr[i];
                 arr[i]=arr[j];
                 arr[j]=c;
-                break;
             }
         }
     }
