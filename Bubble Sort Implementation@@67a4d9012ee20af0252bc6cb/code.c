@@ -1,3 +1,3 @@
-int bubbleSort(int arr[n],int n){
+int bubbleSort(int arr[],int n){
 
 }
