@@ -2,9 +2,10 @@
 int main() {
     int a,k,total=0,ind=0;
     scanf ("%d",&a);
-    int arr[a];
+    int arr[a],visited[a];
     for (int i=0;i<a;i++){
         scanf("%d",&arr[i]);
+        visited[i]=0;
     }
     if (a%2==0){
         k=a/2;
@@ -13,15 +14,18 @@ int main() {
         k=(a+1)/2;
     }
     for (int i=0;i<a;i++){
-        int count=1;
-        for (int j=i+1;j<a;j++){
-            if (arr[i]==arr[j]){
-                count++;
+        if (visited[i]!=1){
+            int count=1;
+            for (int j=i+1;j<a;j++){
+                if (arr[i]==arr[j]){
+                    count++;
+                    visited[j]=1;
+                }
             }
-        }
-        if (count>=k){
-            total++;
-            ind=i;
+            if (count>=k){
+                total++;
+                ind=i;
+            }
         }
     }
     if (total==1){
