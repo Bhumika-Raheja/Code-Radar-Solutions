@@ -13,7 +13,7 @@ int main() {
         k=(a+1)/2;
     }
     for (int i=0;i<a;i++){
-        count=1;
+        int count=1;
         for (int j=i;j<a;j++){
             if (arr[i]=arr[j]){
                 count++;
