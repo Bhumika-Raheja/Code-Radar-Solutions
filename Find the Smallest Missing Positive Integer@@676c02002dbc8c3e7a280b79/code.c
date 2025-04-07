@@ -15,7 +15,7 @@ int main() {
     for (int i=0;i<a;i++){
         for (int j=0;j<a-1;j++){
             if (arr[j+1]<arr[j]){
-                int a=arr[j];
+                int sw=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=sw;
             }
