@@ -21,7 +21,7 @@ int main() {
             }
         }
     }
-    for (int i=0;i<a-1;i++){
+    for (int i=0;i<a;i++){
         if (arr[i]!=neww){
             printf("%d",neww);
         }
