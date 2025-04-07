@@ -1,24 +1,17 @@
 #include <stdio.h>
+#include <limits.h>
 int main() {
-    int a,first;
+    int a;
     scanf ("%d",&a);
-    int arr[a];
+    int arr[a],min=INT_MAX;
     for (int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
     for (int i=0;i<a-1;i++){
-        if (arr[i]>arr[i+1]){
-            int swap=arr[i];
-            arr[i]=arr[i+1];
-            arr[i+1]=swap;
+        if (arr[i]<min){
+            min=arr[i];
         }
     }
-    first=arr[0];
-    for (int i=0;i<a;i++){
-        if (arr[i]!=first){
-            printf("%d",first);
-        }
-        first++;
-    }
+    printf("%d",min);
     return 0;
 }
